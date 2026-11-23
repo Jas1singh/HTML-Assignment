@@ -1,0 +1,114 @@
+
+<!-- 
+ You are designing a more detailed travel blog page to provide a rich user experience. The page should include a header, navigation links, multiple destinations with images, headings, descriptions, and interactive elements like "Read More" links and a footer.
+
+Requirements
+Header Section:
+
+Use an <h1> tag for the blog title, e.g., "Global Adventures Blog."
+Add a brief tagline using an <h2> tag, e.g., "Discover the world's most amazing places."
+Navigation Bar:
+
+Create a simple navigation bar at the top using anchor tags to navigate to different sections:
+"Home"
+"Destinations"
+"Contact Us"
+Featured Section:
+
+Add a prominent image (<img> tag) at the top of the page to act as a banner.
+Include a caption under the image using an <h3> tag, describing the featured destination.
+Destination Sections:
+
+Divide the content into four destinations, each with:
+An <h2> heading for the name of the destination.
+A paragraph describing the destination.
+A small image of the destination with a descriptive alt tag.
+A "Read More" link (<a> tag) to an external site for detailed information.
+Highlight Section:
+
+Include an <h3> tag for a special destination highlight.
+Add a larger image for this destination and describe what makes it unique.
+Back to Top Link:
+
+Add a "Back to Top" anchor link at the bottom of the page.
+Footer Section:
+
+Add a footer with:
+Contact information (e.g., email or social media links using anchor tags).
+Copyright information.
+A small logo image
+
+
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Global Adventures Blog</title>
+</head>
+<body id="top">
+
+    <h1>Global Adventures Blog</h1>
+    <h2>Discover the World's Most Amazing Places</h2>
+
+    <nav>
+        <a href="#top">Home</a> |
+        <a href="#destinations">Destinations</a> |
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <hr>
+
+    <img src="travel-banner.jpg"
+         alt="Beautiful mountain travel destination"
+         width="600">
+
+    <h3>Featured Destination: Switzerland</h3>
+
+    <p>Explore beautiful mountains, lakes and amazing scenery.</p>
+
+    <h2 id="destinations">Our Destinations</h2>
+
+    <h2>1. Paris</h2>
+    <img src="paris.jpg" alt="Eiffel Tower in Paris" width="250">
+    <p>Paris is famous for the Eiffel Tower, museums and beautiful streets.</p>
+    <a href="https://en.wikipedia.org/wiki/Paris">Read More</a>
+
+    <h2>2. Bali</h2>
+    <img src="bali.jpg" alt="Beautiful beaches of Bali" width="250">
+    <p>Bali is famous for beaches, temples and natural beauty.</p>
+    <a href="https://en.wikipedia.org/wiki/Bali">Read More</a>
+
+    <h2>3. New York</h2>
+    <img src="newyork.jpg" alt="New York City skyline" width="250">
+    <p>New York is famous for skyscrapers and Times Square.</p>
+    <a href="https://en.wikipedia.org/wiki/New_York_City">Read More</a>
+
+    <h2>4. Switzerland</h2>
+    <img src="switzerland.jpg" alt="Swiss Alps" width="250">
+    <p>Switzerland offers beautiful mountains and peaceful lakes.</p>
+    <a href="https://en.wikipedia.org/wiki/Switzerland">Read More</a>
+
+    <h3>Special Destination Highlight</h3>
+    <img src="maldives.jpg" alt="Beautiful Maldives island" width="400">
+    <p>The Maldives is unique because of its clear blue water,
+    beautiful islands and luxurious resorts.</p>
+
+    <a href="#top">Back to Top</a>
+
+    <hr>
+
+    <footer id="contact">
+        <h3>Contact Us</h3>
+        <a href="mailto:travel@example.com">Email Us</a><br>
+        <a href="https://www.instagram.com/">Instagram</a>
+
+        <p>Copyright &copy; 2026 Global Adventures Blog.</p>
+
+        <img src="logo.png" alt="Travel Blog Logo" width="50">
+    </footer>
+
+</body>
+</html>
